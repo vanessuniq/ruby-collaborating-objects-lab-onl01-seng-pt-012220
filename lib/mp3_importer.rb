@@ -6,7 +6,7 @@ class MP3Importer
   end 
   
   def files
-    self.path.unicode_normalize
+    @file = 
   end
   
   def import(list_of_filenames)
