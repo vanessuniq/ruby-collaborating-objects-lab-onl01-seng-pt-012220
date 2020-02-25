@@ -20,6 +20,7 @@ class Artist
   end
   
   def self.find_or_create_by_name(name)
+    existing_artist = 
     if existing_artist
       existing_artist
     else
